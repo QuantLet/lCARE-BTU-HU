@@ -1,12 +1,12 @@
 
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
-## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **LCARE_2b_Simulation**
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **LCARE_b_Simulation**
 
 
 ```yaml
 
-Name of Quantlet: LCARE_2b_Simulation
+Name of Quantlet: LCARE_b_Simulation
 
 Published in: LCARE
 
@@ -21,7 +21,7 @@ Keywords:
 - model   
 
 See also: 
-- LCARE_2a_rsn
+- LCARE_a_rsn
 
 Author: Andrija Mihoci, Xiu Xu
 

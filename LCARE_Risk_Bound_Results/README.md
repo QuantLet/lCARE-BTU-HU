@@ -1,12 +1,12 @@
 
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
-## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **LCARE_3_Risk_Bound_Results**
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **LCARE_Risk_Bound_Results**
 
 
 ```yaml
 
-Name of Quantlet: LCARE_3_Risk_Bound_Results
+Name of Quantlet: LCARE_Risk_Bound_Results
 
 Published in: LCARE
 

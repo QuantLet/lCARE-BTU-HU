@@ -1,20 +1,20 @@
 
-Name of Quantlet: LCARE_2a_rsn
+Name of Quantlet: LCARE_b_Simulation
 
 Published in: LCARE
 
-Description: Simulates the data time series following AND.
+Description: Simulates paths of a CARE model with fixed parameter vector.
 
 Keywords:
 - simulation
 - time-series
 - process
 - data
-- model 
-- asymmetric
+- basis
+- model   
 
 See also: 
-- LCARE_2b_Simulation 
+- LCARE_a_rsn
 
 Author: Andrija Mihoci, Xiu Xu
 

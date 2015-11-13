@@ -1,12 +1,12 @@
 
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
-## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **LCARE_2a_rsn**
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **LCARE_a_rsn**
 
 
 ```yaml
 
-Name of Quantlet: LCARE_2a_rsn
+Name of Quantlet: LCARE_a_rsn
 
 Published in: LCARE
 
@@ -21,7 +21,7 @@ Keywords:
 - asymmetric
 
 See also: 
-- LCARE_2b_Simulation 
+- LCARE_b_Simulation 
 
 Author: Andrija Mihoci, Xiu Xu
 

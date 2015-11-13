@@ -1,5 +1,5 @@
 
-Name of Quantlet: LCARE_2c_Simulation
+Name of Quantlet: LCARE_c_Simulation
 
 Published in: LCARE
 
@@ -14,7 +14,7 @@ Keywords:
 - model   
 
 See also: 
-- LCARE_2b_Simulation
+- LCARE_b_Simulation
 
 Author: Andrija Mihoci, Xiu Xu
 

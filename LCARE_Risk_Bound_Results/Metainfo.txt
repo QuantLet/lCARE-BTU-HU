@@ -1,5 +1,5 @@
 
-Name of Quantlet: LCARE_3_Risk_Bound_Results
+Name of Quantlet: LCARE_Risk_Bound_Results
 
 Published in: LCARE
 
