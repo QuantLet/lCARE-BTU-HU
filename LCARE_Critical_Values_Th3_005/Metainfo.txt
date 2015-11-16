@@ -1,0 +1,46 @@
+
+Name of Quantlet: LCARE_Critical_Values_Th3_005
+
+Published in: LCARE
+
+Description: 'Evaluates the critical values based on the likelihood
+ration and risk bound at parameter constellation theta3 
+and expectile leve tau = 0.05'
+
+Keywords:
+- estimation
+- time-series
+- process
+- data
+- basis
+- model   
+- risk
+- parameter
+- likelihood ratio
+- likelihood
+- parametric
+- threshold
+
+See also: 
+- LCARE_Critical_Values_Th1_001
+- LCARE_Critical_Values_Th1_005
+- LCARE_Critical_Values_Th2_001
+- LCARE_Critical_Values_Th2_005
+- LCARE_Critical_Values_Th3_001 
+
+Author: Andrija Mihoci, Xiu Xu
+
+Submitted:  Sat, November 14 2015 by Xiu Xu
+
+Subfunction:
+- LCARE_Propagation_Condition
+
+Datafile : 
+- CARE_RB_Th3_005
+- y_t_005_Th3
+- T_k_Th3_005
+- CARE_risk_bound_Th3_005.mat
+
+Output:
+- z_k_Th3_005
+
