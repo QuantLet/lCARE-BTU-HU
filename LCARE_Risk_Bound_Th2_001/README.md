@@ -34,6 +34,11 @@ Author: Andrija Mihoci, Xiu Xu
 
 Submitted:  Thu, November 12 2015 by Xiu Xu
 
+Subfunction:
+- LCARE_Estimation_Loglik
+- LCARE_Loglik
+- LCARE_Estimation_Theta
+
 Datafile : 
 - CARE_Intervals
 - y_t_001_Th2

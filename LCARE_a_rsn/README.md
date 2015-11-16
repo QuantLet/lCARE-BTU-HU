@@ -21,7 +21,7 @@ Keywords:
 - asymmetric
 
 See also: 
-- LCARE_b_Simulation 
+- LCARE_c_Simulation 
 
 Author: Andrija Mihoci, Xiu Xu
 

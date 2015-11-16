@@ -1,17 +1,3 @@
-% ---------------------------------------------------------------------
-% Project:      LCARE
-% ---------------------------------------------------------------------
-% Quantlet:     LCARE_Risk_Bound_Th1_001
-% ---------------------------------------------------------------------
-% Description:  Simulates the risk bound of a CARE model according to 
-%               theta1 parameter constellation at expectile level 
-%               tau = 0.05
-% ---------------------------------------------------------------------
-% Keywords:     simulation, time-series, process, data, basis, model, 
-%               risk
-% ---------------------------------------------------------------------
-% Author:       Andrija Mihoci, Xiu Xu 20150219
-% ---------------------------------------------------------------------
 
 clear all; clc;
 

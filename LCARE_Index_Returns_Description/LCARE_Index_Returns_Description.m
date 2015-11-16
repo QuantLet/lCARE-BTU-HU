@@ -1,23 +1,3 @@
-% ---------------------------------------------------------------------
-% Project:      LCARE
-% ---------------------------------------------------------------------
-% Quantlet:     LCARE_Index_Returns_Descriptive
-% ---------------------------------------------------------------------
-% Description:  LCARE_Index_Returns_Descriptive provides descriptive 
-%               statistics for the selected index return time series 
-%               from 3 January 2005 to 31 December 2014 (2608 trading 
-%               days): mean, median, minimum (Min), maximum (Max), 
-%               standard deviation (Std), skewness (Skew.) and kurtosis
-%               (Kurt.)
-% ---------------------------------------------------------------------
-% Keywords:     risk management, index, returns, time-series, dax,
-%               ftse, mean, median, standard deviation, skewness and 
-%               kurtosis 
-% ---------------------------------------------------------------------
-% See also:     LCARE_Index_Returns
-% ---------------------------------------------------------------------
-% Author:       Andrija Mihoci, Xiu Xu 20151107
-% ---------------------------------------------------------------------
 
 clear all; clc;
 

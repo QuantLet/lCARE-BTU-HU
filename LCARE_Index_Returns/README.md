@@ -24,7 +24,7 @@ Keywords:
 - ftse100
 
 See also: 
-- LCARE_Index_Returns_Descriptive
+- LCARE_Index_Returns_Description
 
 Author: Andrija Mihoci, Xiu Xu
 
@@ -36,12 +36,12 @@ Example: Plots of selected index return time series
 
 ```
 
-![Picture1](LCARE_Index_Returns_Graphs.png)
+![Picture1](LCARE_Index_Returns.png)
 
 
 ```R
 
-
+ 
 clear all; clc;
  
 data   = load('DataIndices.dat');
@@ -51,24 +51,34 @@ r_SP   = diff(log(data(:, 3)));       % r_SP daily data
 n      = length(data) - 1;
  
 figure;
-subplot(3, 1, 1); plot(r_DAX, '-b', 'LineWidth', 1.5); title('DAX');
+subplot(3, 2, 1); plot(r_DAX, '-b', 'LineWidth', 1.5); 
+title('DAX');
 ylabel(''); xlim([1, 2608]); ylim([-0.10, 0.13]); 
-Year  = {'2006', '2008', '2010', '2012','2014'}; hold on; set(gca, 'xtick', [261 782 1305 1826 2348]);
-Value = {'-0.10', '-0.05', '0', '0.05', '0.10'}; hold on; set(gca, 'ytick', [-0.10 -0.05 0 0.05 0.10]);
+Year  = {'2006', '2008', '2010', '2012','2014'}; hold on; 
+set(gca, 'xtick', [261 782 1305 1826 2348]);
+Value = {'-0.10', '-0.05', '0', '0.05', '0.10'}; hold on; 
+set(gca, 'ytick', [-0.10 -0.05 0 0.05 0.10]);
 set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Value);
  
-subplot(3, 1, 2); plot(r_FTSE, '-b', 'LineWidth', 1.5); title('FTSE100');
+subplot(3, 2, 3); plot(r_FTSE, '-b', 'LineWidth', 1.5); 
+title('FTSE100');
 ylabel(''); xlim([1, 2608]); ylim([-0.11, 0.12]); 
-Year  = {'2006', '2008', '2010', '2012','2014'}; hold on; set(gca, 'xtick', [261 782 1305 1826 2348]);
-Value = {'-0.10', '-0.05', '0', '0.05', '0.10'}; hold on; set(gca, 'ytick', [-0.10 -0.05 0 0.05 0.10]);
+Year  = {'2006', '2008', '2010', '2012','2014'}; hold on; 
+set(gca, 'xtick', [261 782 1305 1826 2348]);
+Value = {'-0.10', '-0.05', '0', '0.05', '0.10'}; hold on; 
+set(gca, 'ytick', [-0.10 -0.05 0 0.05 0.10]);
 set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Value);
  
-subplot(3, 1, 3); plot(r_SP, '-b', 'LineWidth', 1.5); title('S&P500');
+subplot(3, 2, 5); plot(r_SP, '-b', 'LineWidth', 1.5); 
+title('S&P500');
 ylabel(''); xlim([1, 2608]); ylim([-0.11, 0.13]); 
-Year  = {'2006', '2008', '2010', '2012','2014'}; hold on; set(gca, 'xtick', [261 782 1305 1826 2348]);
-Value = {'-0.10', '-0.05', '0', '0.05', '0.10'}; hold on; set(gca, 'ytick', [-0.10 -0.05 0 0.05 0.10]);
+Year  = {'2006', '2008', '2010', '2012','2014'}; hold on; 
+set(gca, 'xtick', [261 782 1305 1826 2348]);
+Value = {'-0.10', '-0.05', '0', '0.05', '0.10'}; hold on; 
+set(gca, 'ytick', [-0.10 -0.05 0 0.05 0.10]);
 set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Value);
 xlabel('Time')
+ 
 
 
 

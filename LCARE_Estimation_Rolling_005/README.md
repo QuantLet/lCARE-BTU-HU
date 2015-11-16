@@ -38,6 +38,11 @@ Author: Andrija Mihoci, Xiu Xu
 
 Submitted: Thu, November 12 2015 by Xiu Xu
 
+Subfunctions: 
+- LCARE_Estimation_Rolling
+- LCARE_Estimation
+- LCARE_Loglik
+
 Datafile: DataIndices.dat
 
 Input: DataIndices.dat
@@ -85,41 +90,51 @@ end
 save tau_005.mat;
  
 figure;
-subplot(2, 3, 1); plot(paras_DAX(:, 2), '-b', 'LineWidth', 1.5); title('DAX');
+subplot(2, 3, 1); plot(paras_DAX(:, 2), '-b', 'LineWidth', 1.5); 
+title('DAX');
 ylabel('Value'); ylim([-3, 3]); xlim([1, 2348]); 
-Year     = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
+Year     = {'2006', '2010', '2014'}; hold on; 
+set(gca, 'xtick', [1  1045 2088]);
 Estimate = {'-3', '0', '3'}; hold on; set(gca, 'ytick', [-3 0 3]);
 set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Estimate);
  
 subplot(2, 3, 4); plot(paras_DAX(:, 17), '-b', 'LineWidth', 1.5);
 ylabel('Value'); ylim([-3, 3]); xlim([1, 2348]); 
-Year     = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
+Year     = {'2006', '2010', '2014'}; hold on; 
+set(gca, 'xtick', [1  1045 2088]);
 Estimate = {'-3', '0', '3'}; hold on; set(gca, 'ytick', [-3 0 3]);
 set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Estimate);
  
-subplot(2, 3, 2); plot(paras_FTSE(:, 2), '-b', 'LineWidth', 1.5); title('FTSE 100');
+subplot(2, 3, 2); plot(paras_FTSE(:, 2), '-b', 'LineWidth', 1.5); 
+title('FTSE 100');
 ylabel(''); ylim([-3, 3]); xlim([1, 2348]); 
-Year     = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
+Year     = {'2006', '2010', '2014'}; hold on; 
+set(gca, 'xtick', [1  1045 2088]);
 Estimate = {'-3', '0', '3'}; hold on; set(gca, 'ytick', [-3 0 3]);
 set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Estimate);
  
 subplot(2, 3, 5); plot(paras_FTSE(:, 17), '-b', 'LineWidth', 1.5);
 ylabel(''); ylim([-3, 3]); xlim([1, 2348]); 
-Year     = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
+Year     = {'2006', '2010', '2014'}; hold on; 
+set(gca, 'xtick', [1  1045 2088]);
 Estimate = {'-3', '0', '3'}; hold on; set(gca, 'ytick', [-3 0 3]);
 set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Estimate);
  
-subplot(2, 3, 3); plot(paras_SP(:, 2), '-b', 'LineWidth', 1.5); title('S&P 500');
+subplot(2, 3, 3); plot(paras_SP(:, 2), '-b', 'LineWidth', 1.5); 
+title('S&P 500');
 ylabel(''); ylim([-3, 3]); xlim([1, 2348]); 
-Year     = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
+Year     = {'2006', '2010', '2014'}; hold on; 
+set(gca, 'xtick', [1  1045 2088]);
 Estimate = {'-3', '0', '3'}; hold on; set(gca, 'ytick', [-3 0 3]);
 set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Estimate);
  
 subplot(2, 3, 6); plot(paras_SP(:, 17), '-b', 'LineWidth', 1.5);
 ylabel(''); ylim([-3, 3]); xlim([1, 2348]); 
-Year     = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
+Year     = {'2006', '2010', '2014'}; hold on; 
+set(gca, 'xtick', [1  1045 2088]);
 Estimate = {'-3', '0', '3'}; hold on; set(gca, 'ytick', [-3 0 3]);
 set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Estimate);
+ 
 
 
 

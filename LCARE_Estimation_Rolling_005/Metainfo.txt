@@ -30,6 +30,11 @@ Author: Andrija Mihoci, Xiu Xu
 
 Submitted:  Thu, November 12 2015 by Xiu Xu
 
+Subfunctions: 
+- LCARE_Estimation_Rolling
+- LCARE_Estimation
+- LCARE_Loglik
+
 Datafile: DataIndices.dat
 
 Input: DataIndices.dat
