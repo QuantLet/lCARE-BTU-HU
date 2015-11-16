@@ -1,8 +1,7 @@
 
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
-## ![qlogo](http://quantnet.wiwi.hu-
-berlin.de/graphics/quantlogo.png) **LCARE_Critical_Values_Th1_001**
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **LCARE_Critical_Values_Th1_001**
 
 
 ```yaml
