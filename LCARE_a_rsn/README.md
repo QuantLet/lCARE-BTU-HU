@@ -10,14 +10,15 @@ Name of Quantlet: LCARE_a_rsn
 
 Published in: LCARE
 
-Description: Simulates the data time series following AND.
+Description: 'Simulates the time series data following asymmetric normal 
+distributions (AND), the simulated datasets are saved as txt and dat files.'
 
 Keywords:
 - simulation
 - time-series
 - process
 - data
-- model   
+- model 
 - asymmetric
 
 See also: 
@@ -25,7 +26,7 @@ See also:
 
 Author: Andrija Mihoci, Xiu Xu
 
-Submitted:  Wen, November 11 2015 by Xiu Xu
+Submitted:  Wed, November 11 2015 by Xiu Xu
 ```
 
 
