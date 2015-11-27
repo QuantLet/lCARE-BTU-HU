@@ -79,39 +79,5 @@ end
 
 save('LCARE_001.mat');
 
-subplot(2, 4, 1); plot(lcare_DAX_001_c(11, :), '-b', 'LineWidth', 1.5); title('DAX');
-ylabel('Length'); ylim([1, 180]); xlim([1, 2348]); 
-Year = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
-Length = {'60', '120', '180'}; hold on; set(gca, 'ytick', [60 120 180]);
-set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Length);
 
-subplot(2, 4, 5); plot(lcare_DAX_001_d(11, :), '-b', 'LineWidth', 1.5);
-ylabel('Length'); ylim([1, 180]); xlim([1, 2348]); 
-Year = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
-Length = {'60', '120', '180'}; hold on; set(gca, 'ytick', [60 120 180]);
-set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Length);
-
-subplot(2, 4, 2); plot(lcare_FTSE_001_c(11, :), '-b', 'LineWidth', 1.5); title('FTSE 100');
-ylabel(''); ylim([1, 180]); xlim([1, 2348]); 
-Year = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
-Length = {'60', '120', '180'}; hold on; set(gca, 'ytick', [60 120 180]);
-set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Length);
-
-subplot(2, 4, 6); plot(lcare_FTSE_001_d(11, :), '-b', 'LineWidth', 1.5);
-ylabel(''); ylim([1, 180]); xlim([1, 2348]); 
-Year = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
-Length = {'60', '120', '180'}; hold on; set(gca, 'ytick', [60 120 180]);
-set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Length);
-
-subplot(2, 4, 3); plot(lcare_SP_001_c(11, :), '-b', 'LineWidth', 1.5); title('S&P 500');
-ylabel(''); ylim([1, 180]); xlim([1, 2348]); 
-Year = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
-Length = {'60', '120', '180'}; hold on; set(gca, 'ytick', [60 120 180]);
-set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Length);
-
-subplot(2, 4, 7); plot(lcare_SP_001_d(11, :), '-b', 'LineWidth', 1.5);
-ylabel(''); ylim([1, 180]); xlim([1, 2348]); 
-Year = {'2006', '2010', '2014'}; hold on; set(gca, 'xtick', [1  1045 2088]);
-Length = {'60', '120', '180'}; hold on; set(gca, 'ytick', [60 120 180]);
-set(gca, 'xticklabel', Year); set(gca, 'yticklabel', Length);
 
