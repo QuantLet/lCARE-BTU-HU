@@ -13,7 +13,7 @@ Published in : LCARE
 Description : 'Estimates the parameters of CARE model with fix
 rolling window for selected indices. Selected rolling window
 lengths: 1 month (20 days), 3 months (60 days), 6 months
-(125 days) and 12 months (250 days) for tau = 0.05.'
+(125 days)  and 12 months (250 days) for tau = 0.05.'
 
 Keywords:
 - estimation
