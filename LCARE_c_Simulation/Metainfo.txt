@@ -3,7 +3,7 @@ Name of Quantlet: LCARE_c_Simulation
 
 Published in: LCARE
 
-Description: Simulates paths of a CARE model with fixed parameter vector.
+Description: Simulates paths of a CARE model with fixed parameter  vector.
 
 Keywords:
 - simulation
