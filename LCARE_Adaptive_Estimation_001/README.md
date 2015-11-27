@@ -12,7 +12,7 @@ Published in: LCARE
 
 Description: 'Estimates the adaptive interval length based on the
 estimated critical value at expectile level 0.01 for the
-select three stock markets.'
+select three stock  markets.'
 
 Keywords:
 - estimation
