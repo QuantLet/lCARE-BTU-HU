@@ -5,7 +5,6 @@ c   = 1.25;
 K   = 11;         
 n_K = 250;        
 
-
 % Programme Code
 n_k = round((n_0 * c)) .* ones(K, 1);
 for l = 2 : K
