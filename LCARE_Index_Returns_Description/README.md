@@ -14,7 +14,7 @@ Published in : LCARE
 Description : 'Provides descriptive statistics for the selected
 index return time series from 3 January 2005 to 31 December 2014
 (2608 trading days): mean, median, minimum (Min), maximum (Max), 
-standard deviation (Std), skewness (Skew.) and 
+standard deviation (Std), skewness (Skew.) and  
 Kurtosis (Kurt.).'
 
 Keywords : 
