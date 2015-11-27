@@ -10,7 +10,7 @@ Name of Quantlet: LCARE_Adaptive_Estimation_001
 
 Published in: LCARE
 
-Description: 'Estimate the adaptive interval length based on the
+Description: 'Estimates the adaptive interval length based on the
 estimated critical value at expectile level 0.01 for the
 select three stock markets.'
 
