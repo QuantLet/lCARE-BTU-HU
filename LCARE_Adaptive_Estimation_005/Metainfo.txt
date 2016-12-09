@@ -1,5 +1,5 @@
 
-Name of Quantlet: LCARE_Adaptive_Estimation_001
+Name of Quantlet: LCARE_Adaptive_Estimation_005
 
 Published in: LCARE
 
@@ -26,4 +26,3 @@ See also:
 Author: Andrija Mihoci, Xiu Xu
 
 Submitted:  Sat, November 14 2015 by Xiu Xu
-
